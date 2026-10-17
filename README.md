@@ -1,16 +1,26 @@
-# React + Vite
+# Tuntas - Aplikasi Pengelola Tugas Mahasiswa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Tuntas" adalah aplikasi web pengelola tugas mahasiswa berbasis sisi klien (*client-side*) yang dirancang untuk membantu mencatat, mengorganisasi, dan memantau progres tugas kuliah dengan cepat, bersih, dan efisien tanpa memerlukan backend atau database server.
 
-Currently, two official plugins are available:
+## Fitur Utama & Kriteria Penerimaan (KF)
+1. **KF-01 & KF-02 (Create & Read)**: Menambahkan tugas baru dan melihat daftar tugas secara *real-time*.
+2. **KF-03 (Update)**: Mengedit judul atau nama tugas yang sudah ada.
+3. **KF-04 (Delete)**: Menghapus tugas dari daftar.
+4. **KF-05 (Toggle Complete)**: Menandai tugas menjadi selesai atau belum selesai melalui *checkbox* interaktif.
+5. **KF-06 (Filtering)**: Fitur filter untuk menampilkan daftar tugas berdasarkan: *Semua Tugas*, *Belum Selesai*, dan *Sudah Selesai*.
+6. **KF-07 (LocalStorage Persistence)**: Penyimpanan data berbasis *browser* sehingga data tugas tidak hilang saat halaman dimuat ulang (*refresh*).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Teknologi yang Digunakan
+- **React.js** (Inisialisasi menggunakan Vite)
+- **Tailwind CSS** (Untuk styling antarmuka yang responsif dan modern)
+- **React Hooks** (`useState`, `useEffect` dengan *Lazy Initialization*)
+- **Bun** (Sebagai *package manager*)
 
-## React Compiler
+## Panduan Instalasi dan Menjalankan Proyek di Lokal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Pastikan komputer Anda sudah terinstal [Node.js](https://nodejs.org/) dan [Bun](https://bun.sh/).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone repository ini ke komputer lokal Anda:**
+   ```bash
+   git clone [https://github.com/danielsmjtk5/11S24021-pabwe2026-w6-teori.git](https://github.com/danielsmjtk5/11S24021-pabwe2026-w6-teori.git)
+   cd 11S24021_Tuntas_ManajemenKegiatan
